@@ -6,6 +6,10 @@
     <DockerPublishLocally>False</DockerPublishLocally>
     <ProjectGuid>e181a3af-6b41-488d-800d-79319f1b9ed9</ProjectGuid>
   </PropertyGroup>
+  <PropertyGroup>
+    <DockerServiceName>basket.api</DockerServiceName>
+    <DockerServiceUrl>{Scheme}://localhost:{ServicePort}</DockerServiceUrl>
+  </PropertyGroup>
   <ItemGroup>
     <None Include="docker-compose.override.yml">
       <DependentUpon>docker-compose.yml</DependentUpon>
